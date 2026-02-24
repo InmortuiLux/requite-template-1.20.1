@@ -1,0 +1,6 @@
+{
+  "perent": "item/generated",
+  "textures": {
+    "layer0": "requite : item/soul"
+  }
+}
