@@ -2,6 +2,8 @@ package net.lux.requite;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.lux.requite.block.ModBlocks;
+import net.lux.requite.item.ModItemGroups;
 import net.lux.requite.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,6 +14,9 @@ public class Requite implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+
+		ModBlocks.registerModBlocks();
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 	}
 }

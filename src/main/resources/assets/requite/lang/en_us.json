@@ -1,3 +1,6 @@
 {
-  "item.requite.soul" : "Soul"
+  "item.requite.soul" : "Soul",
+  "item.requite.bone_fragment" : "Bone Fragment",
+
+  "itemgroup.soul":"Requite"
 }

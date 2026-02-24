@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "requite:item/soul"
+    "layer0": "requite:item/bone_fragment"
   }
 }
