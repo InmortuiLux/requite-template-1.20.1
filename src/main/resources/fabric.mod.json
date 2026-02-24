@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "requite",
+	"version": "${version}",
+	"name": "Requite",
+	"description": "What happens when you push a soul to far?",
+	"authors": [
+		"InmortuiLux"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/requite/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.lux.requite.Requite"
+		],
+		"client": [
+			"net.lux.requite.RequiteClient"
+		],
+		"fabric-datagen": [
+			"net.lux.requite.RequiteDataGenerator"
+		]
+	},
+	"mixins": [
+		"requite.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
