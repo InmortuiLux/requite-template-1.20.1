@@ -1,0 +1,11 @@
+
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "ingredient": {
+    "tag": "minecraft:soul_fire_base_blocks"
+  },
+  "result": "requite:soul"
+}

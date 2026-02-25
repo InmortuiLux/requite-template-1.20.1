@@ -20,6 +20,7 @@ public class ModItemGroups {
                         entries.add(ModItems.Bone_fragment);
                         entries.add(ModItems.Dark_Leather);
                         entries.add(ModBlocks.Dark_stone);
+                        entries.add(ModItems.Soul_tether);
 
 
                     }).build());

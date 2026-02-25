@@ -18,5 +18,6 @@ public class Requite implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		DelayedTeleportManager.init();
 	}
 }

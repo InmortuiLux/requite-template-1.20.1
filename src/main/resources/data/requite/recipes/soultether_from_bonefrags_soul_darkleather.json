@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "requite:dark_leather"
+    },
+    "G": {
+      "item": "requite:bone_fragment"
+    },
+    "T": {
+      "item": "requite:soul"
+    }
+  },
+  "pattern": [
+    "G G",
+    "ETE",
+    "G G"
+  ],
+  "result": {
+    "item": "requite:soul_tether",
+    "count": 1
+  }
+}

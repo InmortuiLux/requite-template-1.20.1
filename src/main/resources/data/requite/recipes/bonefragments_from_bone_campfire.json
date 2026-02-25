@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "misc",
+  "cookingtime": 500,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "minecraft:bone"
+  },
+  "result": "requite:bone_fragment"
+}
