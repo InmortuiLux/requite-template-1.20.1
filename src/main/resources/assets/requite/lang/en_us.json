@@ -1,6 +1,9 @@
 {
   "item.requite.soul" : "Soul",
   "item.requite.bone_fragment" : "Bone Fragment",
+  "item.requite.dark_leather" : "Dark leather",
+
+  "block.requite.dark_stone" : "Dark Stone ",
 
   "itemgroup.soul":"Requite"
 }

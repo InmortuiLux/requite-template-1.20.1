@@ -2,6 +2,7 @@ package net.lux.requite.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.lux.requite.Requite;
+import net.lux.requite.block.ModBlocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.item.ItemStack;
@@ -17,6 +18,8 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.Soul)).entries((displayContext, entries) -> {
                         entries.add(ModItems.Soul);
                         entries.add(ModItems.Bone_fragment);
+                        entries.add(ModItems.Dark_Leather);
+                        entries.add(ModBlocks.Dark_stone);
 
 
                     }).build());

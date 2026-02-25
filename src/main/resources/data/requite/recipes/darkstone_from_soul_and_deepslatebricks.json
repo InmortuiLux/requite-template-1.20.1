@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "requite:soul"
+    },
+    {
+      "item": "minecraft:deepslate_bricks"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "requite:dark_stone"
+
+  }
+}

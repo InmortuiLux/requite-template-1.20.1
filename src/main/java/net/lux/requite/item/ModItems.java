@@ -14,10 +14,12 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item Soul = registerItem("soul", new Item(new FabricItemSettings()));
     public static final Item Bone_fragment = registerItem("bone_fragment", new Item(new FabricItemSettings()));
+    public static final Item Dark_Leather = registerItem("dark_leather", new Item(new FabricItemSettings()));
 
     private static  void addItemsToIngredientsItemGroup(FabricItemGroupEntries entries){
         entries.add(Soul);
         entries.add(Bone_fragment);
+        entries.add(Dark_Leather);
     }
 
     private static Item registerItem(String name, Item item){

@@ -14,8 +14,8 @@ import net.minecraft.util.Identifier;
 
 
 public class ModBlocks {
-    //public static final Block XXXX = registerBlock("XXXX" ,
-            //new Block(FabricBlockSettings.copyOf(Blocks.OBSIDIAN).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block Dark_stone  = registerBlock("dark_stone" ,
+            new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_BRICKS)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name,block);
