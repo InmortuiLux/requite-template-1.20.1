@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "requite:block/soul_anchor_bottom",
+    "top": "requite:block/soul_anchor_top",
+    "side": "requite:block/soul_anchor_side"
+  }
+}

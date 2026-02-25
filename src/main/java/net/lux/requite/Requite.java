@@ -2,6 +2,7 @@ package net.lux.requite;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.lux.requite.block.ModBlockEntities;
 import net.lux.requite.block.ModBlocks;
 import net.lux.requite.item.ModItemGroups;
 import net.lux.requite.item.ModItems;
@@ -16,8 +17,8 @@ public class Requite implements ModInitializer {
 	public void onInitialize() {
 
 		ModBlocks.registerModBlocks();
+		ModBlockEntities.registerBlockEntities(); // <- ADD THIS
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
-		DelayedTeleportManager.init();
 	}
 }

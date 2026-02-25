@@ -15,11 +15,13 @@ public class ModItemGroups {
     public static final ItemGroup Soul_Group = Registry.register(Registries.ITEM_GROUP ,
             new Identifier(Requite.MOD_ID,"soul" ),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.soul"))
-                    .icon(() -> new ItemStack(ModItems.Soul)).entries((displayContext, entries) -> {
-                        entries.add(ModItems.Soul);
+                    .icon(() -> new ItemStack(ModItems.Soul_Stable)).entries((displayContext, entries) -> {
+                        entries.add(ModItems.Soul_unstable);
+                        entries.add(ModItems.Soul_Stable);
                         entries.add(ModItems.Bone_fragment);
                         entries.add(ModItems.Dark_Leather);
                         entries.add(ModBlocks.Dark_stone);
+                        entries.add(ModBlocks.Soul_anchor);
                         entries.add(ModItems.Soul_tether);
 
 

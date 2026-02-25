@@ -1,10 +1,12 @@
 {
-  "item.requite.soul" : "Soul",
+  "item.requite.soul_stable" : "Soul",
+  "item.requite.soul_unstable" :" Unstable Soul",
   "item.requite.bone_fragment" : "Bone Fragment",
   "item.requite.dark_leather" : "Dark leather",
   "item.requite.soul_tether" : "Soul Tether",
 
   "block.requite.dark_stone" : "Dark Stone ",
+  "block.requite.soul_anchor" : "Soul Anchor ",
 
   "itemgroup.soul":"Requite"
 }

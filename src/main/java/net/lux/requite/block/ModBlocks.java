@@ -3,6 +3,7 @@ package net.lux.requite.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.lux.requite.Requite;
+import net.lux.requite.block.custom.SoulAnchorBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.BlockItem;
@@ -12,22 +13,26 @@ import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
-
 public class ModBlocks {
-    public static final Block Dark_stone  = registerBlock("dark_stone" ,
+
+    public static final Block Dark_stone = registerBlock("dark_stone",
             new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_BRICKS)));
 
+    // NEW: Soul Anchor block
+    public static final Block Soul_anchor = registerBlock("soul_anchor",
+            new SoulAnchorBlock(FabricBlockSettings.copyOf(Blocks.ENCHANTING_TABLE).strength(3.5f).sounds(BlockSoundGroup.STONE)));
+
     private static Block registerBlock(String name, Block block){
-        registerBlockItem(name,block);
-        return Registry.register(Registries.BLOCK,new Identifier(Requite.MOD_ID,name ), block);
+        registerBlockItem(name, block);
+        return Registry.register(Registries.BLOCK, new Identifier(Requite.MOD_ID, name), block);
     }
 
     public static Item registerBlockItem(String name, Block block){
-        return Registry.register(Registries.ITEM,new Identifier(Requite.MOD_ID, name),
+        return Registry.register(Registries.ITEM, new Identifier(Requite.MOD_ID, name),
                 new BlockItem(block, new FabricItemSettings()));
     }
 
-    public static  void registerModBlocks(){
-        Requite.LOGGER.info("Registering ModBLocks for "+ Requite.MOD_ID);
+    public static void registerModBlocks(){
+        Requite.LOGGER.info("Registering ModBlocks for "+ Requite.MOD_ID);
     }
 }
